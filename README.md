@@ -25,9 +25,9 @@ If you use this dataset or scripts, please cite the above paper.
 
 ## Dataset Description
 
-**data_raw/**: Contains unprocessed logs directly captured from the experiments. \
-- File naming: `mixip-node<1><2>-<3>-<4>-<5>-<6>.csv` \
-  - 1: Node number \
+**data_raw/**: Contains unprocessed logs directly captured from the experiments. 
+- File naming: `mixip-node<1><2>-<3>-<4>-<5>-<6>.csv` 
+  - 1: Node number 
   - 2: Measured transceiver role (tx/rx)
   - 3: Position number
   - 4: Transmission power level (10/17/22) [dBm]
@@ -108,9 +108,6 @@ python3 ../scripts/generateHistogramNoise.py -p ../data_processed/noise.csv
 
 ## Contributing
 If you find issues or have suggestions, please open an issue or submit a pull request.
-
-## Acknowledgments
-This work was partly funded by the SeaGuard project, which received funding from the European Union’s Horizon Europe Programme under Grant Agreement No. 101168489.
 
 ## Acknowledgments
 This work was partly funded by the SeaGuard project, which received funding from the European Union’s Horizon Europe Programme under Grant Agreement No. 101168489.
