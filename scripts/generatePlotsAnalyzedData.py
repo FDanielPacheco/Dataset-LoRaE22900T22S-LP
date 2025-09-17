@@ -72,9 +72,10 @@ if __name__ == "__main__":
   results = {}
 
   for path in pathFiles:
-    name = f"r{ parseFileName(path)['rate'] }p{ parseFileName(path)['power'] }s{ parseFileName(path)['size'] }"
-    print(name)
-    results[ name ] = readFile( path )
+    if parseFileName(path) is not None:
+      name = f"r{ parseFileName(path)['rate'] }p{ parseFileName(path)['power'] }s{ parseFileName(path)['size'] }"
+      print(name)
+      results[ name ] = readFile( path )
 
   plt.style.use('seaborn-v0_8-whitegrid')
   plt.rcParams.update({
