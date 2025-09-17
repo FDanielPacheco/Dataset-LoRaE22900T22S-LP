@@ -51,7 +51,7 @@ If you use this dataset or scripts, please cite the above paper.
   - 2: Transmission power level (10/17/22) [dBm]
   - 3: LoRa payload packet size (32) [B]
     
-- File CSV structure (left-to-right), has headers:
+- File CSV structure (left-to-right, headers):
   - `subindex`: row index
   - `time`: timestamp [YYYY-MM-DD hh:mm:ss.uuuuuu]
   - `rssi`: measured RSSI correctly converted [dBm]
